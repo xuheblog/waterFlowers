@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:layout_marginTop="?attr/actionBarSize">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="?attr/actionBarSize">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/temperature"
+                android:textColor="@android:color/holo_blue_light"
+                android:textSize="28sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/real_temperature"
+                android:layout_marginTop="10sp"/>
+
+
+            <TextView
+                android:id="@+id/temperature"
+                android:layout_width="191dp"
+                android:layout_height="wrap_content"
+                android:text="@string/def_temperature"
+                android:textSize="30sp"
+                android:gravity="center"
+                android:ems="10"/>
+
+            <TextView
+                android:id="@+id/temperature_tip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="提示信息:好冷啊，好冷啊！"/>
+
+            <View
+                android:layout_width="191dp"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="植物1湿度"
+                android:textColor="@android:color/holo_blue_light"
+                android:textSize="28sp"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:id="@+id/plant_one_tv1"
+                    android:layout_width="191dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/real_humidity"/>
+
+                <TextView
+                    android:layout_alignRight="@id/plant_one_tv1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/set_humidity"/>
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/humidity_one"
+                android:layout_width="191dp"
+                android:layout_height="wrap_content"
+                android:text="@string/humidity"
+                android:textSize="30sp"
+                android:gravity="center"
+                android:ems="10"/>
+
+                <TextView
+                    android:id="@+id/set_humidity_one"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/humidity"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="~"
+                    android:textSize="30dp" />
+
+                <TextView
+                    android:id="@+id/set_humidity_one_high"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/humidity"
+                    android:textSize="30sp" />
+                </LinearLayout>
+
+            <TextView
+                android:id="@+id/humidity_one_tip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="提示信息:好潮啊，好潮啊！"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="植物2湿度"
+                android:textColor="@android:color/holo_blue_light"
+                android:textSize="28sp"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:id="@+id/plant_two_tv1"
+                    android:layout_width="191dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/real_humidity"/>
+
+                <TextView
+                    android:layout_alignRight="@id/plant_two_tv1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/set_humidity"/>
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/humidity_two"
+                    android:layout_width="191dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/humidity"
+                    android:textSize="30sp"
+                    android:gravity="center"
+                    android:ems="10"/>
+
+                <TextView
+                    android:id="@+id/set_humidity_two"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/humidity"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="~"
+                    android:textSize="30dp" />
+
+                <TextView
+                    android:id="@+id/set_humidity_two_high"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/humidity"
+                    android:textSize="30sp"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/humidity_two_tip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="提示信息:好干啊，好干啊！"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

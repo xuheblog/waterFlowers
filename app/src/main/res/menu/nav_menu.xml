@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_setting_one"
+            android:icon="@drawable/setting"
+            android:title="@string/setting_one"/>
+
+        <item
+            android:id="@+id/nav_setting_one_high"
+            android:icon="@drawable/setting"
+            android:title="@string/setting_one_high"/>
+
+        <item
+            android:id="@+id/nav_setting_two"
+            android:icon="@drawable/setting"
+            android:title="@string/setting_two"/>
+
+        <item
+            android:id="@+id/nav_setting_two_high"
+            android:icon="@drawable/setting"
+            android:title="@string/setting_two_high"/>
+
+        <item
+            android:id="@+id/about"
+            android:icon="@drawable/about"
+            android:title="@string/function"/>
+
+        <item
+            android:id="@+id/share"
+            android:icon="@drawable/share"
+            android:title="@string/about"/>
+    </group>
+
+</menu>

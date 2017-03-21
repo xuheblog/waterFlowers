@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">WaterFlowers</string>
+    <string name="setting_one">植物1湿度下限设定</string>
+    <string name="setting_one_high">植物1湿度上限设定</string>
+    <string name="setting_two">植物2湿度下限设定</string>
+    <string name="setting_two_high">植物2湿度上限设定</string>
+    <string name="share">分享</string>
+    <string name="about">关于</string>
+    <string name="function">功能</string>
+    <string name="temperature">温度</string>
+    <string name="real_temperature">实际值：</string>
+    <string name="def_temperature">--℃</string>
+    <string name="real_humidity">实测值：</string>
+    <string name="set_humidity">设定范围：</string>
+    <string name="humidity">--%</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="high">上限</string>
+    <string name="low">下限</string>
+    <string name="about_1">1.可以搜索连接单片机蓝牙设备 </string>
+    <string name="about_2"> 2.接收单片机蓝牙设备发送的信息</string>
+    <string name="about_3">3.显示花盆温度和湿度，并作出判断给予提示信息</string>
+    <string name="about_4"> by 许鹤</string>
+    <string name="scan">搜索</string>
+    <string name="remote_devices">附近蓝牙设备</string>
+    <string name="paried_devices">已配对设备</string>
+</resources>
